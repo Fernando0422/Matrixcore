@@ -6,7 +6,7 @@ let asciiDiv;
 function setup() {
   noCanvas();
   video = createCapture(VIDEO);
-  video.size(100, 100);
+  video.size(250, 250);
   asciiDiv = createDiv();
   fill(random(255));
 }
